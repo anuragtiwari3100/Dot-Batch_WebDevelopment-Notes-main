@@ -53,7 +53,7 @@ const SignupForm = (props) => {
     <div>
       <div className="flex bg-richblack-800 p-1 gap-x-1 rounded-full max-w-max">
         <button
-          onclick={() => setAccountType("student")}
+          onClick={() => setAccountType("student")}
           className={`${
             accountType === "student"
               ? "bg-richblack-900 text-richblack-5"
@@ -63,7 +63,7 @@ const SignupForm = (props) => {
           Student
         </button>
         <button
-          onclick={() => setAccountType("instructor")}
+          onClick={() => setAccountType("instructor")}
           className={`${
             accountType === "instructor"
               ? "bg-richblack-900 text-richblack-5"

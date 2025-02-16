@@ -80,9 +80,9 @@ const LoginForm = (props) => {
                     <p className="text-xs mt-1 text-blue-100 max-w-max ml-auto">Forgot Password</p>
                 </Link>
             </label>
-
             <button className="bg-yellow-50 py-[8px] px-[12px] rounded-[8px] mt-6 font-medium text-richblack-900">Sign in</button>
-        </form>
+
+         </form>
     );
 };
 

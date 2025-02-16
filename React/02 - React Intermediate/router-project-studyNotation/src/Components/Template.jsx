@@ -5,6 +5,7 @@ import LoginForm from "./LoginForm.jsx";
 import { FcGoogle } from "react-icons/fc";
 
 const Template = ({ title, desc1, desc2, image, formType, setIsLoggedIn }) => {
+  // console.log(setIsLoggedIn);
   return (
     <div className="flex w-11/12 max-w-[1160px] py-12 mx-auto gap-y-0 gap-x-12 justify-between">
       <div className="w-11/12 max-w-[450px] mx-0 text-white">
